@@ -62,5 +62,7 @@ namespace ElevenNote.Data
                 HasKey(iur => iur.UserId);
             }
         }
+
+        public System.Data.Entity.DbSet<ElevenNote.Models.Key> Keys { get; set; }
     }
 }
