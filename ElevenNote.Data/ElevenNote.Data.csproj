@@ -97,6 +97,7 @@
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="Category.cs" />
     <Compile Include="IdentityModels.cs" />
+    <Compile Include="Key.cs" />
     <Compile Include="Migrations\202007231357349_InitialCreate.cs" />
     <Compile Include="Migrations\202007231357349_InitialCreate.Designer.cs">
       <DependentUpon>202007231357349_InitialCreate.cs</DependentUpon>

@@ -20,11 +20,9 @@ namespace ElevenNote.Controllers
 
         // GET: api/Keys
         [HttpGet]
-        public async Task<IHttpActionResult> GetAll()
+        public IQueryable<Key> GetKeys()
         {
-            List<Key> key = await db.Key.ToListAsync();
-            await db.Keys.ToListAsync();
-            return Ok(key);
+            return db.Keys;
         }
 
         // GET: api/Keys/5
